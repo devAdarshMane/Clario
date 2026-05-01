@@ -354,7 +354,9 @@ button {
     color: #ff0000;
 }
 
+
 /* Make floating cards float up and down, and stay AHEAD of the phone */
+.phone-notch {
     position: absolute;
     top: 0;
     left: 50%;
