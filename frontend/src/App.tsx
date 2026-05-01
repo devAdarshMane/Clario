@@ -58,7 +58,7 @@ export default function App() {
             <span className="relative">
               <span 
                 className="relative z-10 text-transparent bg-clip-text pr-2 pb-2"
-                style={{ backgroundImage: 'linear-gradient(to right, hsl(var(--primary)), hsl(var(--secondary)))' }}
+                style={{ backgroundImage: 'linear-gradient(to right, var(--primary), var(--secondary))' }}
               >
                 scrollable study reels
               </span>

@@ -1,0 +1,30 @@
+# Clario Frontend Requirements
+
+This project is a React web application. Unlike Python projects which use a `requirements.txt` file, this project uses `package.json` (located in the `frontend` folder) to track and manage all dependencies.
+
+## System Prerequisites
+You need to have the following installed on your system to run this project:
+- Node.js (Version 18 or higher is recommended)
+- npm (Node Package Manager - comes installed with Node.js)
+
+## Core Technologies & Libraries Used
+- React (v19)
+- Vite (v8) - Build tool and development server
+- TypeScript - For static type checking
+- Tailwind CSS (v4) - For styling
+- Framer Motion - For complex animations
+- Radix UI (@radix-ui/react-scroll-area) - For the accessible custom scrollbar
+- Lucide React - For SVG icons
+- clsx & tailwind-merge - For managing CSS classes
+
+## How to Install and Run
+Instead of running `pip install -r requirements.txt`, you will use `npm`:
+
+1. Open your terminal and navigate to the frontend folder:
+   `cd frontend`
+
+2. Install all the required packages (this reads the package.json file):
+   `npm install`
+
+3. Start the development server:
+   `npm run dev`
